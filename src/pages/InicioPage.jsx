@@ -1,6 +1,7 @@
 import { Button, Container, Grid, Typography } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import fondoj from "../assets/fondoj.jpeg";
+//import imgsoftware from "../assets/imgsoftware.png";
 //import React from "react";
 
 export const InicioPage = () => {
@@ -8,7 +9,7 @@ export const InicioPage = () => {
     <Container
       sx={{
         flexGrow: 1,
-        background: "linear-gradient(to left bottom, #D4E7FE, #FFF)",
+        background: "linear-gradient(to left bottom, #1a7f89, #FFF)",
         paddingTop: 25,
         paddingBottom: 12,
         paddingX: { xs: 5, md: 20 },
@@ -29,7 +30,7 @@ export const InicioPage = () => {
               fontSize: 46,
             }}
           >
-            Bienvenido 👋🏻 
+            Bienvenido 👋🏻
           </Typography>
           <Typography
             variant="h1"
@@ -41,7 +42,7 @@ export const InicioPage = () => {
               marginBottom: 2,
             }}
           >
-            Me llamo Julian
+            Me llamo Julian David Garcia Gomez 🚴🏻‍♂️
           </Typography>
           <Typography
             variant="p"
@@ -74,7 +75,7 @@ export const InicioPage = () => {
           xs={12}
           sm={6}
         >
-        <img src={fondoj} />
+        <img src={fondoj}  />
         </grid>
       </Grid>
     </Container>

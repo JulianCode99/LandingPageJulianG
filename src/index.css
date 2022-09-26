@@ -3,3 +3,8 @@
  html {
   Font-family: "Quicksand", Sans-serif;
  }
+
+ .portafolio {
+     width: 80%;
+     border-radius: 20px;
+ }

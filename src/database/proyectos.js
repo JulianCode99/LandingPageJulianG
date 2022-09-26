@@ -1,0 +1,38 @@
+export const proyectos = [
+  {
+    id: 1,
+    nombre: "TO-DO-LIST",
+    descripcion: " Aplicación que nos permite realizar un CRUD completo, Crear una tarea, Leer la tarea, actualizar nuestra tarea y eliminarla.",
+    stack: "React - JSX - Tailwind - LocalStorage",
+    link_preview: "#",
+    link_github: "https://github.com/JulianCode99?tab=repositories",
+    imagen: "todo.png",
+  },
+  {
+    id: 2,
+    nombre: "Súper Héroes",
+    descripcion: " Aplicación que consume una json desplegado en firebase para mostrar los superheroes en pantalla con su imagen, nombre, descripción, fecha de puclicación y poderes dados en los comics de Marvel y DC. ",
+    stack: "React · JSX · Tailwind · Hooks · My Json Serve",
+    link_preview: "#",
+    link_github: "https://github.com/JulianCode99?tab=repositories",
+    imagen: "herores.png",
+  },
+  {
+    id: 3,
+    nombre: "Apliación del Clima ",
+    descripcion: " Aplicación que consume una api del clima, lee la ubicación actual desde el navegador y muestra la ciudad y la información del clima para mi ciudad actual. Además permite buscar por ciudades. ",
+    stack: "React · JSX · Tailwind · Hooks · Api",
+    link_preview: "#",
+    link_github: "https://github.com/JulianCode99?tab=repositories",
+    imagen: "clima.png",
+  },
+  {
+    id: 4,
+    nombre: "Landing Page. ",
+    descripcion: "Aplicación que muestra mi perfil como desarrollador fronted. ",
+    stack: "React Js · Material UI",
+    link_preview: "#",
+    link_github: "https://github.com/JulianCode99?tab=repositories",
+    imagen: "landing.png",
+  },
+];

@@ -21,15 +21,15 @@ export const LandingPage = () => {
       <Box id="estudios">
         <EstudiosPage />
       </Box>
-      <box id="experiencia">
+      <Box id="experiencia">
         <ExperienciaPage />
-      </box>
-      <box id="portafolio">
+      </Box>
+      <Box id="portafolio">
         <PortafolioPage />
-      </box>
-      <box id="contacto">
+      </Box>
+      <Box id="contacto">
         <ContactoPage />
-      </box>
+      </Box>
     </Box>
   );
 };
